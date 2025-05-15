@@ -56,11 +56,10 @@ namespace KojtoCAD
             }
         }
 
-        private void CurrentDomainOnFirstChanceException(object sender,
-            FirstChanceExceptionEventArgs firstChanceExceptionEventArgs)
+        private void CurrentDomainOnFirstChanceException(object sender, FirstChanceExceptionEventArgs firstChanceExceptionEventArgs)
         {
-            var thisasm = Assembly.GetExecutingAssembly();
-            if (thisasm.GetName().Name.ToLower().Contains("kojto"))
+            var thisAssembly = Assembly.GetExecutingAssembly();
+            if (thisAssembly.GetName().Name.ToLower().Contains("kojto"))
             {
                 if (this.logger != null)
                 {

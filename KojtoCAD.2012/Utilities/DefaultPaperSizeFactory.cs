@@ -16,7 +16,7 @@ namespace KojtoCAD.Utilities
             
             switch (paperOrientation)
             {
-                case "Landscape":
+                case "Landscape"://横向 (Landscape)
                     switch (paperSizeName)
                     {
                         case "A4":
@@ -45,7 +45,7 @@ namespace KojtoCAD.Utilities
 
                     break;
 
-                case "Portrait":
+                case "Portrait"://纵向 (Portrait)
                     switch (paperSizeName)
                     {
                         case "A4":

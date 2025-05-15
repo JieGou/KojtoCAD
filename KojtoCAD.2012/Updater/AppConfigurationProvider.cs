@@ -6,6 +6,9 @@ using System.Reflection;
 
 namespace KojtoCAD.Updater
 {
+    /// <summary>
+    /// 应用程序配置提供者类
+    /// </summary>
     public class AppConfigurationProvider : IAppConfigurationProvider
     {
         private readonly Configuration _config;

@@ -20,6 +20,9 @@ using Bricscad.ApplicationServices;
 
 namespace KojtoCAD.Utilities
 {
+    /// <summary>
+    /// Ai(命令)使用跟踪类
+    /// </summary>
     public class AiUsageTracker : IWebTracker
     {
         /*

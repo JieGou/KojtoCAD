@@ -23,7 +23,7 @@ using Face = Teigha.DatabaseServices.Face;
 using Application = Bricscad.ApplicationServices.Application;
 #endif
 [assembly: CommandClass(typeof(KojtoCAD.KojtoCAD3D.Calculations3D))]
-
+//helpurl https://3dsoft.blob.core.windows.net/kojtocad/html/main.htm
 namespace KojtoCAD.KojtoCAD3D
 {
     public class Calculations3D
